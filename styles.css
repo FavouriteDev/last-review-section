@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+body {
+    font-family: Space Grotesk;
+    margin:0;
+}
+.heading{
+    margin-top: 50px;
+    margin-bottom: 56px;
+    color: #14142b;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.375rem;
+    line-height: 1.1;
+}
+.card-group{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    
+}
+.card{
+    height:300px;
+    margin-right: 25px;
+    border-radius: 34px !important;
+    box-shadow: 0 5px 12px 0 rgba(20, 20, 43, 0.05) !important;
+    overflow: visible;
+    border: 1px solid #eff0f6;
+    padding-top: 45px;
+    padding-left: 15px;
+        
+}
+i{
+    color: rgb(255, 107, 0);
+    fill: rgb(255, 107, 0);
+    text-align: left;
+    margin-bottom: 16px;
+    font-size: 20px;
+    height: 20px;
+}
+.d-flex{
+    display: flex;
+}
+img{
+    border-radius: 10%;
+    height: 65px;
+    width: auto;
+    margin: 0;
+}
+.card-text {
+    margin-bottom: 16px;
+    text-align: left;
+    color: #8c8c95;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+.card-title {
+    margin-bottom: 4px;
+    padding: 0;
+    margin-left: 20px;
+}
+.card-subtitle{
+    text-align: left;
+    margin-left: 15px;
+    color: #8c8c95;
+}
+.contact-button{
+    text-align: center;
+    margin-top: 3%;
+    transition: color 350ms ease, transform 300ms ease, border 300ms ease, background-color 300ms ease, -webkit-transform 300ms
+     ease !important;
+}
+a{
+    background-color:  #fedb01 !important;
+    color: black !important;
+    border: solid 1px #e2e3e9;
+    border-radius: 50px;
+    padding: 20px 40px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+a:hover{
+    background-color:#14142b !important;
+    color: white !important;
+}
+a:active {
+    background-color: #fedb01 !important;
+    border-color: #fedb01 !important;
+    color: #000000 !important;
+}
